@@ -1,6 +1,7 @@
 # Tutorials
 
 [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Phmonski/Tutorials/main?urlpath=lab/tree/RooJSONFactoryWSToolTutorial/tutorial.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phmonski/Tutorials/blob/main/RooJSONFactoryWSToolTutorial/tutorial.ipynb)
 
 Several tutorials on the usage of HS3 (Harmonized Statistics Serialization Standard).
 
@@ -24,3 +25,11 @@ The Binder environment installs:
 - Python 3.11
 - CERN ROOT with PyROOT support
 - JupyterLab
+
+## Google Colab demo
+
+Open the same notebook in Google Colab with the badge above, or use this link:
+
+https://colab.research.google.com/github/Phmonski/Tutorials/blob/main/RooJSONFactoryWSToolTutorial/tutorial.ipynb
+
+Colab does not use the repository's Binder environment, so the notebook installs ROOT automatically when it detects a Colab runtime. The first Colab run takes longer because that runtime setup is ephemeral.
